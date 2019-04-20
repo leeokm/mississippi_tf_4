@@ -8,7 +8,7 @@ def cal_bmi(h, w):
     return 'fat'
 
 fp = open(ctx+'bmi.csv', 'w', encoding='utf-8') # w 는 write
-fp.write('height, weight, label \r\n')
+fp.write('height,weight,label\r\n')
 # 무작위 데이터 생성
 cnt = {'thin': 0, 'normal': 0, 'fat': 0}
 for i in range(20000):
